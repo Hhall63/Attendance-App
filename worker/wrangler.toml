@@ -1,0 +1,10 @@
+name = "qr-attendance"
+main = "src/index.ts"
+compatibility_date = "2024-05-15"
+
+[vars]
+TZ = "America/New_York"
+
+[[kv_namespaces]]
+binding = "KV_SESSIONS"
+id = "__REPLACE_WITH_NAMESPACE_ID__"
